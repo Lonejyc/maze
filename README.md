@@ -34,8 +34,8 @@ Le projet est structuré en plusieurs modules JavaScript pour une meilleure orga
 
 1. Clonez ce dépôt :
 ```bash
-git clone https://github.com/username/hexagonal-maze.git
-cd hexagonal-maze
+git clone https://github.com/Lonejyc/maze.git
+cd maze
 ```
 
 2. Assurez-vous d'avoir les assets nécessaires dans un dossier `assets/` :
@@ -43,14 +43,13 @@ cd hexagonal-maze
    - `grass.jpg` - Texture d'herbe pour les passages
    - `stone.png` - Texture de pierre pour les murs
 
-3. Servez le projet avec un serveur HTTP local (nécessaire pour les modules ES6) :
+3. Lancer le projet avec vite :
 ```bash
-npx serve
-# ou avec Python
-python -m http.server
+npm install
+npm run dev
 ```
 
-4. Ouvrez votre navigateur à l'adresse indiquée par le serveur (généralement http://localhost:3000 ou http://localhost:8000)
+4. Ouvrez votre navigateur à l'adresse indiquée par le serveur (généralement http://localhost:5173)
 
 ## Comment ça marche
 
